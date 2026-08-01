@@ -60,3 +60,47 @@ The main objective is to build a complete end-to-end Machine Learning project th
 
 **Kalamuddin Khan**
 
+
+                     HOUSE PRICE PREDICTION
+                               │
+ ┌─────────────────────────────┼─────────────────────────────┐
+ │                             │                             │
+Business                  Dataset                     Deployment
+ │                             │                             │
+Regression          Features + Target             Streamlit App
+ │                             │                             │
+ ├──────────────┐              │                             │
+ │              │              │                             │
+Data Cleaning   EDA      Feature Engineering          Model.pkl
+ │              │              │                             │
+Missing Values  Histogram  New Features               Scaler.pkl
+Outliers        Boxplot    Feature Selection          Feature Order
+Duplicates      Heatmap          │                     Prediction
+ │              │                │
+ └──────────────┼────────────────┘
+                │
+        Data Preprocessing
+                │
+      ┌─────────┴──────────┐
+      │                    │
+Ordinal Encoding     One-Hot Encoding
+      │                    │
+      └─────────┬──────────┘
+                │
+         Feature Scaling
+                │
+       Train-Test Split
+                │
+        Model Training
+                │
+   ┌────────────┼─────────────┐
+   │            │             │
+Linear      Random Forest  Gradient Boosting
+Regression
+                │
+        Model Evaluation
+                │
+     MAE • RMSE • R² Score
+                │
+        Final Prediction
+
