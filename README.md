@@ -60,4 +60,32 @@ The main objective is to build a complete end-to-end Machine Learning project th
 
 **Kalamuddin Khan**
 
+🏠 House Price Prediction Pipeline
+
+```
+                            HOUSE PRICE PREDICTION
+                                      │
+     ┌────────────────────────────────┼────────────────────────────────┐
+     │                                │                                │
+  Dataset                       Preprocessing                     Modeling
+     │                                │                                │
+     ├── Train.csv                    ├── Missing Values              ├── Train/Test Split
+     ├── Test.csv                     ├── Data Cleaning               ├── Model Selection
+     ├── 80 Features                  ├── Feature Engineering         ├── Training
+     └── SalePrice (Target)           ├── Encoding                    └── Evaluation
+                                      ├── Scaling
+                                      └── Feature Selection
+     │                                │                                │
+     └────────────────────────────────┼────────────────────────────────┘
+                                      │
+                                 Deployment
+                                      │
+                         ├── model.pkl
+                         ├── scaler.pkl
+                         ├── Streamlit
+                         ├── User Input
+                         ├── Prediction
+                         └── Output
+```
+
 
